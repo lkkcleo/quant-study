@@ -1,0 +1,115 @@
+1.Selling a call option holds the duty to sell the stock at strike price on or before due date if the one buy it want to
+Buy a put option get the right to sell a stock at strike price on or before expiary date
+2.case end at 1.2900
+    loss = (1.2900-1.3)*100000 Usd
+         = 1000 USD
+    case end at 1.3200
+    gain = (1.3200-1.3)*100000 USD 
+         =2000 USD
+3.a
+    loss = (50-48.2)*50000=900
+  b 
+    gain = (51.3-50)*50000=650
+4.I have to buy the stock at 40 whenever the stock price go below 40 or go below 40 at the end of 3 month
+At most i lose = 40*100=4000 If the stock price drop to 0
+I earn the option preimer which is not provided
+1.5
+Asuume the stock go to x dollar(x>30)
+    case invest all in stock
+        profit = (x-29)*5800/29=200x-5800
+        breakeven = 29
+    case invest all in option
+        profit = (x-30-2.9)*5800/2.9=2000x-65800
+        breakeven = 32.9
+1.6 Assume the stock price go x , choose an put option with stirke price y ,and price p and buy n of that   
+    p(t)=(25-x)*5000-(s-x-p)*n 
+Idealy , when n =5000, the function optain local extreme
+1.7 No 
+1.8 If you predict the market go high, u can use futures take get higher leverage
+    The futures lock the price, which make the p/l calculatable
+1.9 The stock go higher than 52.5
+1.10 The stock go higher than 64
+1.11 P=-(25-20-2)*100=-300
+
+1.12 Higher than 34
+1.13 Sell a forward
+1.14 a)He could buy 1M Cnd (usd to cnd)forward in 6 month, then his payoff is lock , will not affect even usd suddenly big drop
+b) he could buy a put option on the usd to cnd exchange , then when he loss due to the exchange , he get profit base on the option
+1.15  loss= (0.009-0.0084)*100000000=60000
+    profit = (0.0101-0.009)*100000000=110000
+1.16 Hedger/arbitrageurs
+1.17 Someone gain is on others loss
+1.18 Suppose the price go to x , stirke price is p, and option have price c
+    profit = x-p + (-c if x>p)
+                    (p-x-c if x <p)
+            = x-p-c if x>P
+                -c  if x<P
+            = max(0,x-p)-c
+1.19 compose by a 1000 usd bond and 1 169 short call , 1 84.5 long call
+1.20 P=(sell foward - buy forward )*10000000
+1.21 Buy eur in the option and sell a 180-day forward 
+    p = (1.2518-1.22)*n 
+    Short put and long forward 
+    p = (1.27-1.2556)*n
+1.22 Yes if the stock price is in 30-33
+1.23 max gain =5
+    max loss = 40
+    max gain = 5 
+    max loss = inf 
+
+
+1.24 When the stock price go down , the put can balance the loss u made in the stock
+1.25 Buy 100 shares:
+    upfront cost = 316.5*100=31650
+    total gain if go to 400 = (400-316.5)*100=8350
+    Total loss if go 300 = (316.5-300)*100=1650
+    Buy 100 call option 
+        upfront cost = 21.7*100 =2170
+        total gain = (400-320-21.7)*100-5830
+        total loss = 2170
+1.26 Arbitrage is a kind of trader who find difference of price on differenet dervitaes or the same product on different market and gain profit
+    Buy at TSE (60 CND) SELL AT NYSE (60.5 cnd)
+    profit = 60.5-60=0.5
+    The price is likely to strike to equlibrium because of the existence of arbitrageurs
+1.27
+    Let x be the price after one year 
+    Trade A 
+        p = x-1000
+    Trade B 
+        P = max(x-1000,0)-100
+1.28
+    Buy the stock at 40 if the owner excerise that .
+    suppose the price is x. 
+    p = 3 - max(0,40-x)
+    it is porfitable for all x >=37
+    Risk are if the stock go down (for example to 0 , he face a loss of 37)
+1.29
+    He can buy 3M eur forward of 3 month , which lock the current price
+    He can long put usd to cnd  , which when usd to weak ,the put win and balnace the loss
+1.30
+    p = max(0,x-30)-2.75+1.5-max(0,x-32.5)
+      = -1.25 if 0<x<=30
+        x-31.25 if 30<=x<=32.5
+        1.25 if x>32.5
+1.31
+    Since (1300-1200)/1200=0.08>0.03 , the arbitrageur should borrow as much money as he can , buy current gold and sold the future .
+    p = n * (0.08-0.03)
+      = 0.05 n 
+1.32
+    Method 1 :
+        p = (x-316)*100 + 100*(max(0,290-x)-21.3)
+          =  (x-337.3+max(0,290-x))*100
+          = (x-337.3)*100 if x>290 (which max loss = 4730)
+            47.3 * 1000 if x<=290 (which loss = 4730)
+    Method 2:
+        p = (x-316)*100 if x>290
+            -2600 if x<290
+    He may not able to do method 2 if the market are changing so fast(black swan)
+1.33
+    He should buy 170 call at 25 and short 170call at 40 
+    p   = 1000+ max(0,x-25)-max(0, x-40)
+        =  1000 if x<25 
+        170x-3250 if 25<=x<=40
+        3550 if x>=40
+1.34
+    he should long put 1.19 and short call 1.25 
