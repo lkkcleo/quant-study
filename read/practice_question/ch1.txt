@@ -65,7 +65,7 @@ b) he could buy a put option on the usd to cnd exchange , then when he loss due 
     Total loss if go 300 = (316.5-300)*100=1650
     Buy 100 call option 
         upfront cost = 21.7*100 =2170
-        total gain = (400-320-21.7)*100-5830
+        total gain = (400-320-21.7)*100=5830
         total loss = 2170
 1.26 Arbitrage is a kind of trader who find difference of price on differenet dervitaes or the same product on different market and gain profit
     Buy at TSE (60 CND) SELL AT NYSE (60.5 cnd)
@@ -85,7 +85,7 @@ b) he could buy a put option on the usd to cnd exchange , then when he loss due 
     Risk are if the stock go down (for example to 0 , he face a loss of 37)
 1.29
     He can buy 3M eur forward of 3 month , which lock the current price
-    He can long put usd to cnd  , which when usd to weak ,the put win and balnace the loss
+    He can long call usd to cnd  , which when usd to weak ,the put win and balnace the loss
 1.30
     p = max(0,x-30)-2.75+1.5-max(0,x-32.5)
       = -1.25 if 0<x<=30

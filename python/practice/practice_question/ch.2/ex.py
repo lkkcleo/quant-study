@@ -22,5 +22,3 @@ def q13():
         i+=1
         print(i)
 #14 spam.bacon()
-print(123)
-q13()
